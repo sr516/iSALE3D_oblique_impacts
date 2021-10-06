@@ -1,2 +1,1 @@
-Additional supporting information for Ejecta distribution and momentum transfer from oblique impactson asteroid surfaces, Icarus
-S. D. Raducan, T. M. Davison, and G. S. Collins
+Additional supporting information. Ejecta data from the model simulations used in Raducan, S. D., Davison, T. M., Collins, G. S. (2021) Ejecta distribution and momentum transfer from oblique impactson asteroid surfaces. Icarus.
