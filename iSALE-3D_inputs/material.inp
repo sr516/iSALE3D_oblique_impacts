@@ -1,0 +1,37 @@
+#ISMAT ! iSale material input file identification string for TEST1
+----------------------------------------------------------------
+MATNAME    Material name             : target_         : impactr
+EOSNAME    EOS name                  : basalt_         : aluminu
+EOSTYPE    EOS type                  : tillo           : tillo 
+STRMOD     Strength model            : LUNDD           : VNMS 
+DAMMOD     Damage model              : IVANOV          : NONE
+ACFL       Acoustic fluidisation     : NONE            : NONE 
+PORMOD     Porosity model            : WUNNEMA         : WUNNEMA
+THSOFT     Thermal softening         : OHNAKA          : OHNAKA
+LDWEAK     Low density weakening     : POLY            : NONE
+----- Elastic strength parameters ------------------------------
+POIS       pois                      : 2.5000D-01      : 3.3000D-01
+----- Minimum Pr essure -----------------------------------------
+PMININ     minimum pressure          : XXXXXXXXXX      : -2.440D+09
+----- Thermal parameters ---------------------------------------
+TMELT0     tmelt0                    : 1.3600D+03      : 9.3300D+02
+TFRAC      tfrac                     : 0.7000D+00      : 1.1590D+00   
+ASIMON     a_simon                   : 4.5000D+09      : 6.0000D+09
+CSIMON     c_simon                   : 3.0000D+00      : 3.0000D+00
+-------LUNDD parameters------------------------------------------
+YDAM0      ydam0 (ycoh)              : 1.0000D+04      : XXXXXXXXXX
+FRICDAM    fricdam                   : 6.0000D-01      : XXXXXXXXXX
+YLIMDAM    ylimdam                   : 1.0000D+09      : XXXXXXXXXX
+------IVANOV damage model parameters-----------------------------
+IVANOV_A   Damage parameter          : 1.0000D-04      : XXXXXXXXXX
+IVANOV_B   Damage parameter          : 1.0000D-11      : XXXXXXXXXX
+IVANOV_C   Damage parameter          : 3.0000D+08      : XXXXXXXXXX
+----- VNMS strength parameter -----------------------------------
+YINT0      yint0                     : XXXXXXXXXX      : 5.0000D+08
+---------porosity properties (Wuennemann) ------------------------
+ALPHA0       Initial porosity        : 1.3D+00         : 1.115D+00
+EPSE0        Elastic threshold       : -1.88D-6        : 0.D+00
+ALPHAX       Transition              : 1D+00           : 1D+00
+KAPPA        Exp Coefficient         : 8.60D-01        : 9.00D-01
+CHI          Sound speed ratio       : 1.0D-00         : 1.0D-00
+<<END ! used to identify the end of this file
